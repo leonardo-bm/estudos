@@ -163,7 +163,7 @@ header nav ul li{
 }
 
 .servicos .servicos-card {
-    padding-top: 25px;
+    margin-top: 25px;
     display: flex;
     max-width: 950px;
     justify-content: center;
@@ -183,7 +183,7 @@ header nav ul li{
 .servicos .card svg {
     width: 60px;
     height: 60px;
-    margin-bottom: 50px;
+    margin: 50px;
     transition: all 0.5s;
 }
 
@@ -207,6 +207,10 @@ header nav ul li{
     text-align: center;
 }
 
+.servicos button {
+    background: #D4CB92;
+}
+
 #map {
     height: 400px;
     /* The height is 400 pixels */
@@ -216,7 +220,7 @@ header nav ul li{
 
 .contato {
     padding: 60px 0;
-    background: red;
+    background: rgb(121, 128, 95);
     position: relative;
 }
 
